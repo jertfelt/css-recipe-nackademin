@@ -1,0 +1,204 @@
+/*CSS
+Använd minst två olika typsnitt på sidan.
+Använd minst två bakgrundsfärger/bakgrundsbilder.
+
+Inlämningsmapp i studentportalen skapas på onsdag 17 november. 
+Uppgiften ska lämnas in som .zip-fil alternativt en länk till Github-repository.
+
+Senast inlämnings 24/11
+*/ 
+
+
+body {
+  background-color: bisque;
+  color: darkslateblue;
+  font-family: Georgia, serif;
+}
+.header {
+  color:darkslateblue;
+  display:flex;
+  justify-content: space-between;
+  padding:2%;
+  align-items: flex-start;
+  margin: 1% 2% -1% 2%;
+}
+.header h1{
+  font-family: 'Lobster', cursive;   
+  font-size: 46px;
+  margin:0%;
+}
+
+main{
+  display:flex;
+  margin:0% 5% 0% 5%;
+  padding:1rem;
+  flex-direction: column;
+}
+
+.full-width{
+  width:100%;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+main h2{
+  font-family: 'Lobster',Verdana,sans-serif;
+  letter-spacing: 2px;
+  /* align-self: center; */
+  font-size: 40px;
+  color: darkslateblue;
+  margin:0% 0% 0% 0%;
+}
+
+h3 {
+  font-family: 'Lobster',Verdana,sans-serif;
+  letter-spacing: 2px;
+  font-size: 30px;
+}
+
+.full-width img{
+  flex-basis:100%;
+  min-width:100%;
+  border-color: darkslateblue;
+  border-style: inset;
+  border-width: 10px;
+  margin:1rem;
+
+}
+.main-instructions {
+  padding:1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  flex-basis:100%;
+  display:flex;
+  flex-direction: row;
+}
+
+.recipe{
+  margin:0, 0, 5, 0%;
+  display:flex;
+  align-self: flex-start;
+  max-width: 100%;
+  flex-basis:70%;
+  min-width: 30%;
+}
+
+.random-facts {
+  flex-basis:24%;
+  padding:2rem;
+  border-color: darkslateblue;
+  border-style:dashed;
+  border-width: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction:column;
+justify-content: center;
+
+  }
+
+  .random-facts h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:24px;
+    letter-spacing: 0;
+  }
+  .random-facts p {
+    font-weight: bold;
+  }
+
+.recipe-list{
+background-color: darkslateblue;
+color:bisque;
+max-width: 24%;
+padding:1rem;
+display:flex;
+flex-direction: column;
+justify-content: flex-start;
+margin:3%;
+}
+
+.recipe-list label {
+  font-weight: bolder;
+  font-size: 16px;
+}
+.recipe-steps{
+  width:75%;
+  padding:1rem;
+}
+
+.half-width{
+  background-color: darkslateblue;
+  display:flex;
+  flex-direction: column;
+  flex-basis:100%;
+  justify-content: center;
+  align-items:center;
+  padding:1rem;
+  color:bisque;
+  margin-top:5%;
+  margin-bottom:5%;
+}
+
+.content-half-width{
+  display:flex;
+  flex-direction: row;
+  flex-basis:100%;
+}
+.half-width-column >h2{
+  color:bisque;
+  margin:2% 0% 0% 2%;
+}
+.half-width img {
+  flex-basis:30%;
+  border-color: bisque;
+  border-style: inset;
+  border-width: 10px;
+}
+.half-width-column {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: 0%;
+}
+.half-width .main-instructions {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  flex-basis:100%;
+  display:flex;
+  flex-direction: row;
+}
+.half-width .recipe {
+  flex-basis:100%;
+  display:flex;
+  flex-direction: row-reverse;
+  align-items:flex-start
+}
+.half-width .recipe-list{
+  background-color: darkslateblue;
+  color:bisque;
+  max-width: 30%;
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  }
+
+  .half-width .recipe-steps{
+   flex-basis:60%;
+    padding:1rem;
+  }
+
+.half-width-column .random-facts {
+  width:100%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  border:none;
+  padding:1rem;
+}
+.half-width-column .random-facts p{
+  width:70%;
+  font-size:20px;
+}
+
+a{
+  font-weight: bolder;
+  color:indianred;
+}
