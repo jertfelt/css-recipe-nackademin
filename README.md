@@ -1,10 +1,12 @@
 This assignment was to create three recipes using CSS (responsive design not obligatory).
-Obligatory: needed to use two fonts.
 I wanted to explore the different settings and use responsiveness. 
+Obligatory: 
+
+Needed to use two fonts.
 At least one picture per recipe, with alt text.
 Three different headings.
-One <ol>
-One <ul<
+One ol-list item
+One ul-list item
 Two external links
 One section with facts about the recipe
 Also it needed to be validated without any errors on https://validator.w3.org/
