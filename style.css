@@ -5,7 +5,6 @@
   --ff-color-link: palevioletred;
 }
 
-
 body{
   background-color: bisque;
   color: var(--ff-color-primary);
@@ -199,9 +198,6 @@ aside div:nth-child(2){
   align-self: flex-end;
   flex-basis:30%;
 }
-
-
-
 /*media for .full-firstrecipe*/
 /*400px*/
 
@@ -235,7 +231,7 @@ section:first-of-type .full .split article{
     display:flex;
     flex-wrap: wrap;
     flex-direction: column;
-}
+}}
 @media (max-width:499px){
   section:first-of-type .full .split article:first-of-type, section:first-of-type .full .split article:nth-child(2),
   section:first-of-type .full .split h3 {
@@ -245,13 +241,12 @@ section:first-of-type .full .split article{
     flex-direction: column;
     margin:0;
     align-self: flex-start;
-}
+}}
 @media (max-width:499px){
   section:first-of-type .full .split .button-to-jack {
    background-color: darkslateblue;
    color: bisque;
-}
-}
+}}
 @media (max-width:499px) {
   section:first-of-type .full .split article:last-of-type {
     background-color: darkslateblue;
@@ -298,7 +293,7 @@ section:first-of-type .full .split article{
     display:flex;
     flex-wrap: wrap;
     flex-direction: column;
-}
+}}
 @media (max-width:1100px) and (min-width:500px){
   section:first-of-type .full .split article:first-of-type, section:first-of-type .full .split article:nth-child(2),
   section:first-of-type .full .split h3 {
@@ -308,7 +303,7 @@ section:first-of-type .full .split article{
     flex-direction: column;
     margin:0;
     align-self: flex-start;
-}
+}}
 @media (max-width:1100px)and (min-width:500px){
   section:first-of-type .full .split .button-to-jack {
    background-color: darkslateblue;
@@ -320,6 +315,4 @@ section:first-of-type .full .split article{
     background-color: darkslateblue;
     color: bisque;
     flex-basis:100%;
-  }
-}
-
+  }}
